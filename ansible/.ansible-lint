@@ -1,0 +1,12 @@
+profile: production
+
+exclude_paths:
+  - .venv/
+  - .collections/
+  - ansible/.collections/
+  - .git/
+  - scripts/
+
+skip_list:
+  - yaml[line-length]
+  - name[casing]
